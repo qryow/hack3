@@ -1,0 +1,180 @@
+{
+  "users": [
+    {
+      "username": "elmar",
+      "age": "17",
+      "password": "123",
+      "isAdmin": true,
+      "id": 1
+    },
+    {
+      "username": "elmir",
+      "age": "23",
+      "password": "123",
+      "isAdmin": false,
+      "id": 2
+    }
+  ],
+  "moviesSwiper": [
+    {
+      "image": "https://deadline.com/wp-content/uploads/2023/04/barbie-BARBIE_VERT_TSR_W_TALENT_2764x4096_DOM_rgb.jpg?w=800",
+      "id": 17
+    },
+    {
+      "image": "https://sportshub.cbsistatic.com/i/2023/05/05/75a5162e-60b8-4bf4-9902-3c0ef49af85f/oppenheimer-poster-cillian-murphy.jpg?auto=webp&width=1500&height=2375&crop=0.632:1,smart",
+      "id": 18
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/71OLMNKaKEL.jpg",
+      "id": 19
+    },
+    {
+      "image": "https://assets-prd.ignimgs.com/2022/12/03/fjej3p5vsaefncy-1670085354902.jpg",
+      "id": 20
+    },
+    {
+      "image": "https://i0.wp.com/batman-news.com/wp-content/uploads/2023/04/The-Flash-Movie-Poster-International-01.jpeg?fit=1382%2C2048&quality=80&strip=info&ssl=1",
+      "id": 21
+    },
+    {
+      "image": "https://www.themoviedb.org/t/p/original/2VK4d3mqqTc7LVZLnLPeRiPaJ71.jpg",
+      "id": 23
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/8105Oc1+FPL.jpg",
+      "id": 25
+    },
+    {
+      "image": "https://m.media-amazon.com/images/M/MV5BNzZmOTU1ZTEtYzVhNi00NzQxLWI5ZjAtNWNhNjEwY2E3YmZjXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+      "id": 26
+    }
+  ],
+  "moviesList": [
+    {
+      "id": 1,
+      "image": "https://i.pinimg.com/originals/8e/0d/ab/8e0dab8699be85720ce55845065bf6dc.jpg",
+      "title": "Interstellar",
+      "janr": "Sci-fi",
+      "date": "2014"
+    },
+    {
+      "id": 2,
+      "image": "https://s3.amazonaws.com/media.thecrimson.com/photos/2021/11/29/194232_1353163.jpeg",
+      "title": "SP No-Way-Home",
+      "janr": "Fantastic",
+      "date": "2021"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ebayimg.com/images/g/R58AAOSwxKxep0qA/s-l1600.jpg",
+      "title": "Blade Runner 2049",
+      "janr": "Sci-fi",
+      "date": "2049"
+    },
+    {
+      "id": 4,
+      "image": "https://m.media-amazon.com/images/I/91nB2P7VgvL.jpg",
+      "title": "The Maze Runner ",
+      "janr": "Apocalyps",
+      "date": "2018"
+    },
+    {
+      "id": 5,
+      "image": "https://m.media-amazon.com/images/I/71Hmv9MwvhS.jpg",
+      "title": "Kung-fu Panda",
+      "janr": "Adventure",
+      "date": "2010"
+    },
+    {
+      "id": 6,
+      "image": "https://i.ebayimg.com/images/g/HP0AAOSwKIpV-vwL/s-l1200.webp",
+      "title": "HP Order Pheonix",
+      "janr": "Fantasy",
+      "date": "2007"
+    },
+    {
+      "id": 7,
+      "image": "https://static.displate.com/857x1200/displate/2021-01-28/063d3fe7e178097463aa5108dffa90c0_9346110f0054293d273ade4cf4538e1c.jpg",
+      "title": "Captain America",
+      "janr": "Adventure",
+      "date": "2014"
+    },
+    {
+      "id": 8,
+      "image": "https://i.ebayimg.com/images/g/3H8AAOSwjWJgOAIc/s-l1600.jpg",
+      "title": "Iron-man",
+      "janr": "Adventure",
+      "date": "2011"
+    },
+    {
+      "id": 9,
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/639e325e-f642-4b02-b7c1-ffa20d7ef2cd/d31tsnm-768a3f24-da5c-44d7-96eb-80917f15e325.png/v1/fill/w_900,h_1333,q_80,strp/the_dark_knight_rises___poster_by_newrandombell_d31tsnm-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTMzMyIsInBhdGgiOiJcL2ZcLzYzOWUzMjVlLWY2NDItNGIwMi1iN2MxLWZmYTIwZDdlZjJjZFwvZDMxdHNubS03NjhhM2YyNC1kYTVjLTQ0ZDctOTZlYi04MDkxN2YxNWUzMjUucG5nIiwid2lkdGgiOiI8PTkwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.E1WEKaT5wp8Qo__GMkHk-u7iA25_Qc0ZzLp2Txy56e4",
+      "title": "The Dark Knight",
+      "janr": "Adventure",
+      "date": "2006"
+    },
+    {
+      "id": 10,
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/6cd302e9-32f0-4c70-8731-967bc4cc0b58/orig",
+      "title": "Joker",
+      "janr": "Adventure",
+      "date": "2017"
+    },
+    {
+      "image": "asdfasf",
+      "title": "adsfasd",
+      "janr": "adsfasd",
+      "date": "234",
+      "id": 11
+    },
+    {
+      "image": "sdf",
+      "title": "a",
+      "janr": "sadf",
+      "date": "234",
+      "id": 12
+    },
+    {
+      "image": "jkfjlksdf",
+      "title": "kjdsfklj",
+      "janr": "qwe",
+      "date": "132",
+      "id": 13
+    },
+    {
+      "image": "asdf",
+      "title": "adsf",
+      "janr": "qwe",
+      "date": "123",
+      "id": 14
+    },
+    {
+      "image": "dsfaf",
+      "title": "gdsff",
+      "janr": "qwe",
+      "date": "3432",
+      "id": 15
+    },
+    {
+      "image": "sdff",
+      "title": "dsfg",
+      "janr": "qwe",
+      "date": "123",
+      "id": 16
+    },
+    {
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/639e325e-f642-4b02-b7c1-ffa20d7ef2cd/d31tsnm-768a3f24-da5c-44d7-96eb-80917f15e325.png/v1/fill/w_900,h_1333,q_80,strp/the_dark_knight_rises___poster_by_newrandombell_d31tsnm-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTMzMyIsInBhdGgiOiJcL2ZcLzYzOWUzMjVlLWY2NDItNGIwMi1iN2MxLWZmYTIwZDdlZjJjZFwvZDMxdHNubS03NjhhM2YyNC1kYTVjLTQ0ZDctOTZlYi04MDkxN2YxNWUzMjUucG5nIiwid2lkdGgiOiI8PTkwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.E1WEKaT5wp8Qo__GMkHk-u7iA25_Qc0ZzLp2Txy56e4",
+      "title": "dasfad",
+      "janr": "asdf",
+      "date": "234",
+      "id": 17
+    },
+    {
+      "image": "https://static.displate.com/857x1200/displate/2021-01-28/063d3fe7e178097463aa5108dffa90c0_9346110f0054293d273ade4cf4538e1c.jpg",
+      "title": "Captain America",
+      "janr": "Adventure",
+      "date": "2014",
+      "id": 18
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+/** Стили по умолчанию*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background-color: #000000;
+} 
+a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+}
+li {
+  list-style-type: none;
+}
+
+
+/** общие стили классов*/
+.container__wrapper {
+  width: 90%;
+  margin: 0 auto ;
+} 
+#admin-panel {
+  margin-top: 150px !important;
+}
+
+
+/** header */
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  height: 700px;
+}
+.header__block {
+  background: url(../img/bg.png) no-repeat center top / cover;
+  height: 900px;
+}
+.header__title {
+  font-size: 120px;
+  /*margin-top: 120px;*/
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+/** navbar */
+.navbar__block {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__logo { 
+}
+.navbar__btns {
+  width: 30%;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__btns button {
+  width: 25%;
+  height: 45px;
+  padding: 5px;
+  background-color: #ffffff00;
+  color: #fffdfd;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  font-family: 'Gotham', sans-serif;
+  transition: 0.5s;
+}
+.navbar__btns button:hover {
+  background-color: #008C59;
+  color: #fff;
+  border: 1px solid #008C59;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.navbar__btns button::before {
+  top:0; bottom: 0; right: 0;
+  height: 100%; width: 100%;
+  opacity: 1;
+}
+
+
+/** carousel */
+.swiper {
+  position: relative;
+  width: 60%;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  /*height: 400px;  */
+}
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
+.swiper-wrapper {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+.carousel__card {
+  position: relative;
+  /*width: 20% !important;*/
+  /*height: 100%;*/
+  /*height: 500px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: self-start;
+}
+.card__img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  /*border-radius: 10px;*/
+}
+/*.card__content {
+  height: 350px !important;
+}*/
+.swiper-slide div {
+  /*display: block;*/
+  opacity: 0;
+  padding-bottom: 0.625rem;
+}
+.swiper-slide-active div {
+  display: block;
+  opacity: 1;
+}
+.btn-delete{
+  position: relative;
+  top: -60px;
+  margin: 5px 0 0 20px;
+}
+
+
+/** main navbar */
+.main__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+}
+.main__navbar_title {
+  width: 15%;
+}
+.dropdowns__wrapper {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search__form {
+  position: relative;
+  width: 20% !important;
+}
+
+
+/** movie list */
+#movie-list {
+  width: 90%;
+  margin: 60px auto 0;
+}
+.movie_card {
+  width: 17%;
+  margin-bottom: 80px;
+}
+.movie__image {
+  height: 350px;
+}
+.movie__image img{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.cart__title {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.subtitles__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__janr {
+  font-size: 20px;
+}
+.card__date {
+  font-size: 20px;
+  margin-right: 5px;
+}
